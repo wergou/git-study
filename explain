@@ -17,6 +17,7 @@ git merge 分支名 把指定分支合并到当前分支
 git remote -v 查看别名
 git remote add 名称 协议 为远程库取别名
 git push 推送的别名 分支名 推送代码
-git clone 克隆代码
-git pull 拉取代码
+git clone 克隆的协议 克隆代码
+git pull 拉取的别名 分支名 拉取代码
 git fork 叉代码
+ssh-keygen -t rsa -C 全局邮箱
