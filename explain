@@ -1,0 +1,22 @@
+git config --global user.name xxxx 设置全局名称
+git config --global user.email xxxx 设置全局邮箱
+git init 初始化本地仓库
+git status 查看本地仓库的状态
+git add 文件名 添加缓存区
+git rm --cached 文件名 删除缓存文件
+git commit -m"日志信息" 文件名 提交本地库
+git reflog 查看版本号（精简）
+git log 查看版本号
+git reset --hard 版本号 版本穿梭
+git branch 创建分支
+git branch -v 分支名 查看分支
+git branch -d 分支名 删除本地分支
+git branch -D 分支名 强制删除本地分支
+git checkout 分支名 切换分支
+git merge 分支名 把指定分支合并到当前分支
+git remote -v 查看别名
+git remote add 名称 协议 为远程库取别名
+git push 推送的别名 分支名 推送代码
+git clone 克隆代码
+git pull 拉取代码
+git fork 叉代码
