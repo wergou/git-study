@@ -15,6 +15,7 @@ git branch -D 分支名 强制删除本地分支
 git checkout 分支名 切换分支
 git merge 分支名 把指定分支合并到当前分支
 git remote -v 查看别名
+git remote rm 别名 删除存在别名
 git remote add 名称 协议 为远程库取别名
 git push 推送的别名 分支名 推送代码
 git clone 克隆的协议 克隆代码
